@@ -1,0 +1,24 @@
+/* THIS IS A GENERATED FILE -- DO NOT EDIT */
+
+var target;    /* the target used for this build */
+
+/* configuro was passed the target's name explicitly */
+try {
+    target = xdc.module('ti.targets.arm.elf.M3');
+}
+catch (e) {
+    throw new Error("Can't find the target named '" + 'ti.targets.arm.elf.M3'
+                    + "' along the path '" + environment["xdc.path"]
+                    + "': please check the spelling of the target's name and that it exists along this path.");
+}
+if (!(target instanceof xdc.module("xdc.bld.ITarget").Module)) {
+    throw new Error("The module named 'ti.targets.arm.elf.M3' exists but it's not a target: please check the spelling of the target's name");
+}
+
+/* configuro was passed compiler options explicitly */
+target.ccOpts.prefix = unescape("-mv7M3%20--code_state%3D16%20-me%20-Ooff%20--opt_for_speed%3D0%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F/MGC3130_cc2640r2f_4x4_app%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F/MGC3130_cc2640r2f_4x4_app/Application%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F/MGC3130_cc2640r2f_4x4_app/Startup%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F/MGC3130_cc2640r2f_4x4_app/PROFILES%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F/MGC3130_cc2640r2f_4x4_app/Include%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/source/ti/ble5stack/controller/cc26xx_r2/inc%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/source/ti/ble5stack/inc%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/source/ti/ble5stack/rom%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/source/ti/ble5stack/common/cc26xx%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/source/ti/ble5stack/icall/inc%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/source/ti/ble5stack/target%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/source/ti/ble5stack/hal/src/target/_common%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/source/ti/ble5stack/hal/src/target/_common/cc26xx%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/source/ti/ble5stack/hal/src/inc%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/source/ti/ble5stack/heapmgr%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/source/ti/ble5stack/icall/src/inc%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/source/ti/ble5stack/osal/src/inc%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/source/ti/ble5stack/services/src/saddr%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/source/ti/ble5stack/services/src/sdata%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/source/ti/devices/cc26x0r2%22%20--include_path%3D%22D%3A/BLE/test/smallest/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/examples/rtos/CC2640R2_LAUNCHXL/ble5stack/simple_peripheral/src/app/GUA%22%20--include_path%3D%22D%3A/ti/ccs1200/ccs/tools/compiler/ti-cgt-arm_20.2.6.LTS/include%22%20--include_path%3D%22D%3A/BLE/test/GUA_CC2640R2F_SDK/simplelink_cc2640r2_sdk_1_40_00_45/examples/rtos/CC2640R2_LAUNCHXL/ble5stack/simple_peripheral/src/app/GUA%22%20--define%3DDeviceFamily_CC26X0R2%20--define%3DxRaw_Data%20--define%3DxCAL_POS%20--define%3Dfull_function%20--define%3DxUSE_UART%20--define%3DFive_electrode%20--define%3DDisplay_DISABLE_ALL%20--define%3DBOARD_DISPLAY_USE_LCD%3D0%20--define%3DBOARD_DISPLAY_USE_UART%3D1%20--define%3DBOARD_DISPLAY_USE_UART_ANSI%3D1%20--define%3DxCC2640R2_LAUNCHXL%20--define%3DxCC2640R2DK_7ID%20--define%3DCC2640R2DK_4XS%20--define%3DCC26XX%20--define%3DCC26XX_R2%20--define%3DICALL_EVENTS%20--define%3DICALL_JT%20--define%3DICALL_LITE%20--define%3DICALL_MAX_NUM_ENTITIES%3D6%20--define%3DICALL_MAX_NUM_TASKS%3D3%20--define%3DICALL_STACK0_ADDR%20--define%3DPOWER_SAVING%20--define%3DRF_SINGLEMODE%20--define%3DSTACK_LIBRARY%20--define%3DTBM_ACTIVE_ITEMS_ONLY%20--define%3DUSE_ICALL%20--define%3Dxdc_runtime_Assert_DISABLE_ALL%20--define%3Dxdc_runtime_Log_DISABLE_ALL%20-g%20--c99%20--gcc%20--diag_warning%3D225%20--diag_wrap%3Doff%20--display_error_number%20--gen_func_subsections%3Don%20--abi%3Deabi%20%20") + target.ccOpts.prefix;
+
+/* configuro was passed the target's rootDir explicitly */
+target.rootDir = 'D:/ti/ccs1200/ccs/tools/compiler/ti-cgt-arm_20.2.6.LTS';
+
+Build.targets = [target];

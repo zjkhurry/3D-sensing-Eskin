@@ -1,0 +1,59 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Zhou
+    given-names: Jingkun
+    orcid: https://orcid.org/0000-0001-5394-4388
+  - family-names: Li
+    given-names: Jian
+    orcid: https://orcid.org/0000-0002-9768-0932
+  - family-names: Jia
+    given-names: Huiling
+    orcid: https://orcid.org/0000-0001-7918-0945
+  - family-names: Yao
+    given-names: Kuanming
+    orcid: https://orcid.org/0000-0001-8744-8892
+  - family-names: Jia
+    given-names: Shengxin
+  - family-names: Li
+    given-names: Jiyu
+  - family-names: Zhao
+    given-names: Guangyao
+  - family-names: Yiu
+    given-names: Chun Ki
+  - family-names: Gao
+    given-names: Zhan
+  - family-names: Li
+    given-names: Dengfeng
+  - family-names: Zhang
+    given-names: Binbin
+  - family-names: Huang
+    given-names: Ya
+  - family-names: Zhuang
+    given-names: Qiuna
+  - family-names: Yawen
+    given-names: Yang
+  - family-names: Huang
+    given-names: Xingcan
+  - family-names: Wu
+    given-names: Mengge
+  - family-names: Liu
+    given-names: Yiming
+  - family-names: Gao
+    given-names: Yuyu
+  - family-names: Li
+    given-names: Hu
+  - family-names: Hu
+    given-names: Yue
+  - family-names: Shi
+    given-names: Rui
+  - family-names: Mukherji
+    given-names: Meenakshi
+  - family-names: Zheng
+    given-names: Zijian
+  - family-names: Yu
+    given-names: Xinge
+    orcid: https://orcid.org/0000-0003-0522-1171
+title: Mormyroidea-inspired electronic skin for active non-contact three-dimensional tracking and sensing
+version: V0.0.3
+date-released: 2024-10-36

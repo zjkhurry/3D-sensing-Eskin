@@ -1,0 +1,6 @@
+serial
+bleak
+PyQt5
+numpy
+pyqtgraph
+PyOpenGL
