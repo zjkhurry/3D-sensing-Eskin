@@ -1,0 +1,21 @@
+/* styles.css */
+
+
+.image-class {
+    width: 60%;
+    height: auto; /* 保持原始宽高比 */
+    display: block; /* 确保图片独立显示 */
+    margin: 0 auto; /* 居中对齐 */
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 30%; /* 调整宽度以适应并排显示 */
+    height: auto;
+    margin: 5px; /* 添加间距 */
+}
